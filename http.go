@@ -1,15 +1,15 @@
 package main
 
 import (
-	"fmt"
 	"github.com/bug-hh/websocket"
+	"github.com/golang/glog"
 )
 
 
 func wwwGolangLtd(ws *websocket.Conn) {
-	fmt.Println("Golang 社区欢迎您！！！")
+	glog.Info("Golang 社区欢迎您！！！")
 	data := ws.Request().URL.Query().Get("data")
-	fmt.Println("data: ", data)
+	glog.Info("data: ", data)
 	// 消息处理
 	// 先处理 主协议
 	// 再处理 子协议

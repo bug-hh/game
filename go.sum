@@ -2,3 +2,5 @@ github.com/bug-hh/websocket v0.0.0-20130122144708-14f8b2f699a3 h1:wlEP0hshkBCVwo
 github.com/bug-hh/websocket v0.0.0-20130122144708-14f8b2f699a3/go.mod h1:N8jA6cnmW4D1L52re3ZALjSMHt7WGSi7D4rPojX6PuM=
 github.com/golang/glog v0.0.0-20160126235308-23def4e6c14b h1:VKtxabqXZkF25pY9ekfRL6a582T4P37/31XEstQ5p58=
 github.com/golang/glog v0.0.0-20160126235308-23def4e6c14b/go.mod h1:SBH7ygxi8pfUlaOkMMuAQtPIUF8ecWP5IEl/CR7VP2Q=
+github.com/kellegous/websocket v0.0.0-20130122144708-14f8b2f699a3 h1:H4npAsI0gEslUBOJtmexogWmYdYl6httixh6XDzYzt4=
+github.com/kellegous/websocket v0.0.0-20130122144708-14f8b2f699a3/go.mod h1:IBn2fqf2SAqBp4gEq3zF5/0fVEusAzgUhXZIxZZvgqU=

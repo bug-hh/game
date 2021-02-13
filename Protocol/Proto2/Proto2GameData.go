@@ -20,12 +20,16 @@ type PlayerSt struct {
 // 功能结构
 
 type Head_Proto struct {
-	Proto int // 主协议
-	Proto2 int // 子协议
+	Protocol1 int // 主协议
+	Protocol2 int // 子协议
 }
 type C2S_PlayerLogin struct {
 	Head_Proto
+	Itype int // 1 登录，2 注册
 	Code string // 微信授权 CODE
+	StrLoginName string
+	StrLoginPW string
+	StrLoginEmail string
 }
 
 type S2C_PlayerLogin struct {
